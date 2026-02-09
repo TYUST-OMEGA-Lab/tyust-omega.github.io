@@ -2,33 +2,38 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href="http://www.tyust.edu.cn/">TYUST</a> · OMEGA Lab (Optimal / Open-world / Omni)
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false # 如果你想让头像变圆，可以改为 true
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>太原科技大学 (TYUST)</p>
+    <p>计算机科学与技术学院</p>
+    <p>山西省太原市万柏林区窎河街道</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true # 当你在 _bibliography/papers.bib 添加论文并标记 selected=true 时，会自动显示在此
+social: true # 会在页面底部显示图标，需在 _config.yml 中配置你的社交账号
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true # 开启团队新闻动态
+  scrollable: true # 如果新闻多了会显示滚动条
+  limit: 5 
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: true # 开启学习记录/博客
+  scrollable: true
+  limit: 3 
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+# 🌌 欢迎来到 TYUST OMEGA Lab
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+**OMEGA** 代表 **O**ptimal / **O**pen-world / **O**mni Machine lEarning on **G**raph d**A**ta。
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+我们是一个专注于**图数据挖掘技术**、**图神经网络 (GNN)** 及**图自监督学习**的前沿研究小组。我们的研究致力于打通从底层优化理论到开放环境适配，再到跨学科广泛应用的完整链路。
+
+### 核心理念：Ω³ / Ωⁿ
+实验室的研究由三个互补的维度构成（$\Omega^3$），并追求如幂函数般的无界增长（$\Omega^n$）：
+
+* **Optimal (优化理论)**：由博士青年老师领衔，主攻 GNN 的理论
